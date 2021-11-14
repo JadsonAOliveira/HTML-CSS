@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --azul: #4855C4;
+    --rosa: #FA6180;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container .first-side {
+    width: 60%;
+    padding: 20px;
+}
+
+.container .first-side h1 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--azul);
+}
+
+.container .first-side h1 span {
+    color: var(--rosa);
+}
+
+.container .first-side main img {
+    display: block;
+    width: 50%;
+    margin: 80px auto;
+}
+
+.container .first-side main h2 {
+    color: var(--azul);
+    text-align: center;
+    font-size: 2.2em;
+    margin-top: 80px;
+}
+
+.container .first-side main p { 
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.container .second-side {
+    background-color: var(--azul);
+    width: 40%;
+}
+
+.container .second-side .buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .second-side .buttons button {
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.container .second-side form {
+    margin-top: 10px;
+    color: white;
+}
+
+.container .second-side form h2 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.container .second-side form > p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container .second-side form > div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container .second-side form > div label div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    background-color: #2f3ba3;
+    border-radius: 5px;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+
+.container .second-side form > div label input {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+
+.container .second-side form > div a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.container .second-side form button {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-block: 10px;
+    border-radius: 50px;
+    background-color: var(--rosa);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 10px 15px #00000083;
+    text-shadow: 0 10px 15px #00000083;;
+}
+
+.container .second-side footer {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .second-side footer .links{
+    border: 2px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-block: 10px;
+}
+
+.container .second-side footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .second-side footer div.icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #ffffffa6;
+    margin-top: 20px;
+}
